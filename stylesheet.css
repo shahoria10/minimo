@@ -1,0 +1,268 @@
+/* common CSS part start */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+  }
+  /* common CSS part end */
+  /* header part start */
+  .header{
+    /* border-bottom: 1px solid red; */
+  }
+  .header{}
+  .container{
+    padding:30px;
+    margin: 0 auto;
+    width:90%;
+    /* border:1px solid red; */
+    overflow:hidden;
+    
+  }
+  .logo{
+    
+    width:5%;
+    /* border:1px solid red; */
+    float:left;
+     margin:top 5px;
+  }
+  .logo a {}
+  .logo a img{
+   
+    width: 100%;
+
+  }
+  .menu{
+    width:50%;
+    /* border:1px solid red; */
+    float:right;
+  }
+  .menu ul{
+    float:right;
+  }
+  .menu ul li{
+    list-style:none;
+    float:left;
+  }
+  .menu ul li a{ 
+   margin: 0 59px;
+
+    display:inline-block;
+    text-decoration:none;
+    text-transform:uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .33s linear;
+   
+  }
+  .menu ul li:last-child a{
+    margin:0;
+  }
+
+  .menu ul li a:hover{
+    /* color:#000000; */
+    border-bottom: 1px solid #626262;
+
+
+  }
+  /* header part End */
+  /* <----------banner-----start--------> */
+  .banner{}
+  .b_img{}
+  .b_img img{
+    width:100%;
+  }
+  /* <----------banner-----end--------> */
+
+  /* <--------article---start-----> */
+.article{
+  padding:100px 0 100px;
+
+}
+.container2{
+  margin:0 auto;
+  width:80%;
+  overflow:hidden;
+  /* border:1px solid red; */
+
+}
+.a_content{}
+.c_link{
+  font-family:"Ubuntu" Light serif;
+  font-size: 14px;
+  color:#b4ad9e;
+  text-transform: uppercase;
+}
+.c_h1{
+  font-family: "playfair display" sans-serif;
+  font-size:30px;
+  color:#626262;
+  margin:20px 0 30px;
+
+}
+.c_text{
+  font-size:14pt;
+  line-height:24pt;
+}
+.comment{
+  margin-top:45px;
+  display:inline-block;
+}
+  /* <--------article---end----->/ */
+  
+  /* <-----------blog----------start-------------> */
+  .blog{
+    padding: 0 0 100px;
+  }
+  .bg_item{
+    margin-top: 70px;
+    box-sizing: border-box;
+    width: 47%;
+    float:left;
+    /* border: 1px solid red; */
+  }
+  .bg_item:nth-child(even){
+    margin-left: 6%;
+  }
+  .bg_img{
+   margin-bottom:25px;
+  }
+  .bg_img img{
+    width:100%;
+  }
+  
+  /* <-----------blog----------end-----------> */
+  /* <-----------n_letter-----------start--> */
+.n_letter{
+  padding:70px 0;
+  background-color:#f0f0f0;
+}
+
+.singup{
+  text-align:center;
+}
+.s_h1{
+  margin-top: 0;
+  margin-bottom:70px;
+  color:#333333;
+}
+.s_form{ 
+  position:relative;
+  width:400px;
+  /* border:1px solid red; */
+  margin:0 auto;
+}
+.s_form input{
+  font-family: 'playfair Display', sarif;
+  width: 345px;
+  height: 45px;
+  font-size: 14px;
+  color: #626262;
+  padding-left:5px;
+  padding-right:45px;
+  border:none;
+  border-bottom:1px solid  #626262;
+  background:transparent;
+}
+.s_form input:focus{
+  outline:0;
+}
+
+.s_form button{
+  background-color: transparent;
+  border:none;
+  cursor:pointer;
+  position:absolute;
+  top:15px;
+  right:0;
+}
+.s_form button img{}
+
+
+
+  
+  /* <-----------n_letter-----------end--> */
+
+  /* <-------------blog_2-----start---> */
+
+.blog_2{
+  padding-top:30px;
+}
+
+.load{
+  text-align:center;
+  background: transparent;
+  padding:0px 0 150px;
+}
+.l_btn{
+  width:165px;
+  height:60px;
+  border-radius:0;
+  border:1px solid #626262;
+  cursor:pointer;
+  transition: .33s linear;
+
+}
+.l_btn:hover{
+  color:white;
+  background: #626262;
+}
+
+  /* <-------------blog_2----end-> */
+  
+
+footer{
+  padding:30px;
+  margin: 0 auto;
+  width:96%;
+  /* border:1px solid red; */
+  overflow:hidden;
+  background: #f0f0f0;
+  color: #333333;
+
+}
+
+.pages{
+  display:inline-block;
+  text-decoration:none;
+  text-transform:uppercase;
+  border-bottom: 1px solid transparent;
+  transition: .33s linear;
+  
+  
+
+}
+.pages ul li{
+  float :left; 
+  
+}
+.pages ul li a{
+  margin:0 0 0 50px;
+  color: #333333;
+  font-weight:500;
+  font-size: 16px;
+}
+
+.social{
+  float:right
+}
+.social ul li{
+  float :left;
+  
+}
+span{
+  color: #333333;
+  font-weight:500;
+  font-size: 16px;
+  margin-right:10px;
+}
+.social ul li a{
+  margin:0 20px 0 0;
+  
+}
+.social ul li a img{
+}
+
